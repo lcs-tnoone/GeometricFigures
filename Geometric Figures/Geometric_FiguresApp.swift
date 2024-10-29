@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct Geometric_FiguresApp: App {
+    // Mark: Computed Properties
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RectangularPrism()
         }
     }
 }

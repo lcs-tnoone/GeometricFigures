@@ -6,17 +6,22 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E97287322CD005E800083138 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E972872C2CD005E800083138 /* Preview Assets.xcassets */; };
+		E97287332CD005E800083138 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E972872E2CD005E800083138 /* Assets.xcassets */; };
+		E97287352CD005E800083138 /* Geometric_FiguresApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97287302CD005E800083138 /* Geometric_FiguresApp.swift */; };
+		E97287382CD05F5800083138 /* RectangularPrism.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97287372CD05F5800083138 /* RectangularPrism.swift */; };
+		E972873B2CD05FEF00083138 /* RectangleValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = E972873A2CD05FEF00083138 /* RectangleValues.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		E972871A2CCFF26200083138 /* Geometric Figures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Geometric Figures.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E972872C2CD005E800083138 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E972872E2CD005E800083138 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E97287302CD005E800083138 /* Geometric_FiguresApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geometric_FiguresApp.swift; sourceTree = "<group>"; };
+		E97287372CD05F5800083138 /* RectangularPrism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangularPrism.swift; sourceTree = "<group>"; };
+		E972873A2CD05FEF00083138 /* RectangleValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleValues.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		E972871C2CCFF26200083138 /* Geometric Figures */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Geometric Figures";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E97287172CCFF26200083138 /* Frameworks */ = {
@@ -32,7 +37,7 @@
 		E97287112CCFF26200083138 = {
 			isa = PBXGroup;
 			children = (
-				E972871C2CCFF26200083138 /* Geometric Figures */,
+				E97287312CD005E800083138 /* Geometric Figures */,
 				E972871B2CCFF26200083138 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +48,42 @@
 				E972871A2CCFF26200083138 /* Geometric Figures.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		E972872D2CD005E800083138 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E972872C2CD005E800083138 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E97287312CD005E800083138 /* Geometric Figures */ = {
+			isa = PBXGroup;
+			children = (
+				E97287302CD005E800083138 /* Geometric_FiguresApp.swift */,
+				E97287392CD05FC500083138 /* Model */,
+				E97287362CD05F0200083138 /* Views */,
+				E972872D2CD005E800083138 /* Preview Content */,
+				E972872E2CD005E800083138 /* Assets.xcassets */,
+			);
+			path = "Geometric Figures";
+			sourceTree = "<group>";
+		};
+		E97287362CD05F0200083138 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E97287372CD05F5800083138 /* RectangularPrism.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E97287392CD05FC500083138 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E972873A2CD05FEF00083138 /* RectangleValues.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +100,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				E972871C2CCFF26200083138 /* Geometric Figures */,
 			);
 			name = "Geometric Figures";
 			packageProductDependencies = (
@@ -109,6 +147,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E97287322CD005E800083138 /* Preview Assets.xcassets in Resources */,
+				E97287332CD005E800083138 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E97287382CD05F5800083138 /* RectangularPrism.swift in Sources */,
+				E972873B2CD05FEF00083138 /* RectangleValues.swift in Sources */,
+				E97287352CD005E800083138 /* Geometric_FiguresApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
